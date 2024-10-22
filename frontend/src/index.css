@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color:#F2B441;
+  flex-direction: column;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content{
+  height: 500px;
+  width: 1300px;
+  background-color:#243773 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  color: #fff;
+  font-size: large;
+  margin: -30px;
+}
+
+.front{
+  background-color: #BF1F2C;
+  border: none ;
+  border-radius: 20px;
+  color: white;
+  padding: 50px ;
+  margin: 50px;
+  font-size: larger;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.front:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  transform: translateY(4px);
+}
